@@ -12,8 +12,9 @@
 /* this style exists to make it obvious that you've successfully linked
    the CSS to the page. feel free to remove it once the link is working. */
 body {
-     border: 1px dotted gray;
+     border: 20px solid red;
      padding: 20px;
+     background-color: green;
 }
 
 .jumbotron {
@@ -23,7 +24,7 @@ body {
 
 .jumbotron:after {
      content:"";
-     background: url("http://lorempixel.com/1140/283");
+     background: url("http://images2.fanpop.com/image/photos/9700000/Sad-Puppy-puppies-9726248-1600-1200.jpg");
      opacity: 0.2;
      top: 0;
      left: 0;
@@ -31,6 +32,13 @@ body {
      right: 0;
      position: absolute;
      z-index: -1;	
+}
+
+.thumbnail {
+     background-color: yellow;
+     padding-top: 20px;
+     border-color: blue;
+     border-width: 10px;
 }
 
  
